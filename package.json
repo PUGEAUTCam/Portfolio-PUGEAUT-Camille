@@ -1,0 +1,16 @@
+{
+    "name": "portfolio_pugeaut_camille",
+    "version": "1.0.0",
+    "description": "Portfolio PUGEAUT Camille - Developer web.  Contactez moi ! Et construisons ensemble vos futurs projets.",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./sass/main.scss  ./public/css/style.css"
+    },
+    "keywords": [],
+    "author": "PUGEAUT Camille",
+    "license": "ISC",
+    "dependencies": {
+        "dayjs": "^1.11.7",
+        "sass": "^1.57.1"
+    }
+}

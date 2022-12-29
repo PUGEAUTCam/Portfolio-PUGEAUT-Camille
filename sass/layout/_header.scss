@@ -1,0 +1,20 @@
+// header {
+//     position: fixed;
+//     top: 0px;
+//     width: 100%;
+//     max-width: 1500px;
+// }
+
+.nav-bar {
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 29px;
+    border-bottom: 1px solid $color-primary;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+    color: $color-primary;
+    padding-left: 0px;
+    font-weight: bold;
+}

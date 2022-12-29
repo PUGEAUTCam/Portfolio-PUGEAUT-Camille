@@ -1,0 +1,21 @@
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-color: $background-color;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container-body {
+    border: 1px solid $color-primary;
+    height: 100vh;
+    border-top: none;
+}
+
+//General content
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
