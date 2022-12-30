@@ -9,13 +9,27 @@ body {
 }
 
 .container-body {
-    border: 1px solid $color-primary;
+    border: 1px solid $border-primary;
     height: 100vh;
     border-top: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 136px;
+    color: $text-primary;
+    font-family: "Lato";
+    font-weight: 500;
 }
 
 //General content
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+.around {
+    justify-content: space-around;
+}
+.center {
+    justify-content: center;
 }

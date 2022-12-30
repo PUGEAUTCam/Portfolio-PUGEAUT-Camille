@@ -3,15 +3,23 @@ body {
   margin: 0 auto;
   height: 100%;
   width: 100%;
-  background-color: #c4bcb3;
+  background-color: #0c0c0c;
   box-sizing: border-box;
   color: white;
 }
 
 .container-body {
-  border: 1px solid #1c1c1a;
+  border: 1px solid #646464;
   height: 100vh;
   border-top: none;
+}
+
+h1 {
+  margin: 0;
+  font-size: 136px;
+  color: #e0d8cf;
+  font-family: "Lato";
+  font-weight: 500;
 }
 
 .flex {
@@ -19,11 +27,19 @@ body {
   flex-wrap: wrap;
 }
 
+.around {
+  justify-content: space-around;
+}
+
+.center {
+  justify-content: center;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
 
-li {
+a {
   cursor: pointer;
   font-family: "PT sans narrow";
 }
@@ -32,14 +48,88 @@ li {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  font-size: 29px;
-  border-bottom: 1px solid #1c1c1a;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 27px;
+  border-bottom: 1px solid #646464;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: 0px;
-  color: #1c1c1a;
+  color: #e0d8cf;
   padding-left: 0px;
-  font-weight: bold;
+}
+
+.underline {
+  transition: all 300ms ease;
+}
+.underline::before {
+  display: block;
+  content: "";
+  background-color: #646464;
+  width: 0%;
+  height: 1px;
+  transform-origin: left;
+  transition: 0.6s cubic-bezier(0.5, 0, 0, 1);
+}
+.underline::after {
+  display: block;
+  content: "";
+  background-color: #646464;
+  width: 0%;
+  height: 1px;
+  transform-origin: right;
+  transition: 0.6s cubic-bezier(0.5, 0, 0, 1);
+}
+.underline:hover {
+  color: white;
+  transform: scale(1.01);
+}
+.underline:hover::before {
+  width: 100%;
+}
+.underline:hover::after {
+  width: 100%;
+}
+
+.first-page {
+  height: 100vh;
+}
+
+.name-svg-container {
+  height: 80vh;
+}
+
+.svg-developer path {
+  fill: transparent;
+  stroke-width: 1;
+  stroke: rgba(224, 216, 207, 0.4196078431);
+  stroke-dasharray: 465;
+  stroke-dashoffset: 465;
+  animation: animate-developer 3s linear forwards;
+}
+
+.svg-web path {
+  fill: transparent;
+  stroke-width: 1;
+  stroke: rgba(224, 216, 207, 0.4196078431);
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: animate-web 3s linear forwards;
+}
+
+@keyframes animate-developer {
+  0% {
+    stroke-dashoffset: 465;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes animate-web {
+  0% {
+    stroke-dashoffset: 800;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

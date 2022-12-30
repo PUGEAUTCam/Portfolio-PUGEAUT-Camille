@@ -1,0 +1,48 @@
+.first-page {
+    height: 100vh;
+}
+
+.name-svg-container {
+    height: 80vh;
+}
+
+// SVG
+.svg-developer path {
+    fill: transparent;
+    stroke-width: 1;
+    stroke: #e0d8cf6b;
+    // définit le motif des traits et des espaces utilisés pour dessiner le contour de la forme.
+    stroke-dasharray: 465;
+    // décale la position de départ des pointillés sur les lignes SVG.
+    stroke-dashoffset: 465;
+    animation: animate-developer 3s linear forwards;
+}
+
+.svg-web path {
+    fill: transparent;
+    stroke-width: 1;
+    stroke: #e0d8cf6b;
+    // définit le motif des traits et des espaces utilisés pour dessiner le contour de la forme.
+    stroke-dasharray: 800;
+    // décale la position de départ des pointillés sur les lignes SVG.
+    stroke-dashoffset: 800;
+    animation: animate-web 3s linear forwards;
+}
+
+//Animation SVG
+@keyframes animate-developer {
+    0% {
+        stroke-dashoffset: 465;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animate-web {
+    0% {
+        stroke-dashoffset: 800;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
