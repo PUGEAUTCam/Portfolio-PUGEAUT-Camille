@@ -9,17 +9,13 @@ body {
 }
 
 .container-body {
-  border: 1px solid #646464;
-  height: 100vh;
+  border: 1px solid rgba(100, 100, 100, 0.3);
   border-top: none;
 }
 
 h1 {
   margin: 0;
-  font-size: 136px;
-  color: #e0d8cf;
-  font-family: "Lato";
-  font-weight: 500;
+  color: #a7a199;
 }
 
 .flex {
@@ -41,7 +37,12 @@ body {
 
 a {
   cursor: pointer;
-  font-family: "PT sans narrow";
+  font-family: "Poiret one", sans-serif;
+}
+
+h1 {
+  font-family: "Poiret one", sans-serif;
+  font-size: 136px;
 }
 
 .nav-bar {
@@ -49,11 +50,11 @@ a {
   align-items: center;
   list-style: none;
   font-size: 27px;
-  border-bottom: 1px solid #646464;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0px;
-  color: #e0d8cf;
+  color: #a7a199;
   padding-left: 0px;
 }
 
@@ -63,7 +64,7 @@ a {
 .underline::before {
   display: block;
   content: "";
-  background-color: #646464;
+  background-color: rgba(100, 100, 100, 0.3);
   width: 0%;
   height: 1px;
   transform-origin: left;
@@ -72,7 +73,7 @@ a {
 .underline::after {
   display: block;
   content: "";
-  background-color: #646464;
+  background-color: rgba(100, 100, 100, 0.3);
   width: 0%;
   height: 1px;
   transform-origin: right;
@@ -94,25 +95,35 @@ a {
 }
 
 .name-svg-container {
-  height: 80vh;
+  height: 70vh;
+}
+
+.lottie-container {
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  width: 743px;
 }
 
 .svg-developer path {
   fill: transparent;
   stroke-width: 1;
-  stroke: rgba(224, 216, 207, 0.4196078431);
+  stroke: rgba(224, 216, 207, 0.23);
   stroke-dasharray: 465;
   stroke-dashoffset: 465;
   animation: animate-developer 3s linear forwards;
 }
 
-.svg-web path {
+.svg-front path {
   fill: transparent;
   stroke-width: 1;
-  stroke: rgba(224, 216, 207, 0.4196078431);
-  stroke-dasharray: 800;
-  stroke-dashoffset: 800;
-  animation: animate-web 3s linear forwards;
+  stroke: rgba(224, 216, 207, 0.23);
+  stroke-dasharray: 677;
+  stroke-dashoffset: 677;
+  animation: animate-front 3s linear forwards;
 }
 
 @keyframes animate-developer {
@@ -123,9 +134,9 @@ a {
     stroke-dashoffset: 0;
   }
 }
-@keyframes animate-web {
+@keyframes animate-front {
   0% {
-    stroke-dashoffset: 800;
+    stroke-dashoffset: 677;
   }
   100% {
     stroke-dashoffset: 0;

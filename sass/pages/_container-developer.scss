@@ -3,14 +3,23 @@
 }
 
 .name-svg-container {
-    height: 80vh;
+    height: 70vh;
+}
+.lottie-container {
+    height: 24vh;
+    display: flex;
+    justify-content: center;
 }
 
 // SVG
+svg {
+    width: 743px;
+}
+
 .svg-developer path {
     fill: transparent;
     stroke-width: 1;
-    stroke: #e0d8cf6b;
+    stroke: $stroke;
     // définit le motif des traits et des espaces utilisés pour dessiner le contour de la forme.
     stroke-dasharray: 465;
     // décale la position de départ des pointillés sur les lignes SVG.
@@ -18,15 +27,15 @@
     animation: animate-developer 3s linear forwards;
 }
 
-.svg-web path {
+.svg-front path {
     fill: transparent;
     stroke-width: 1;
-    stroke: #e0d8cf6b;
+    stroke: $stroke;
     // définit le motif des traits et des espaces utilisés pour dessiner le contour de la forme.
-    stroke-dasharray: 800;
+    stroke-dasharray: 677;
     // décale la position de départ des pointillés sur les lignes SVG.
-    stroke-dashoffset: 800;
-    animation: animate-web 3s linear forwards;
+    stroke-dashoffset: 677;
+    animation: animate-front 3s linear forwards;
 }
 
 //Animation SVG
@@ -38,9 +47,9 @@
         stroke-dashoffset: 0;
     }
 }
-@keyframes animate-web {
+@keyframes animate-front {
     0% {
-        stroke-dashoffset: 800;
+        stroke-dashoffset: 677;
     }
     100% {
         stroke-dashoffset: 0;
