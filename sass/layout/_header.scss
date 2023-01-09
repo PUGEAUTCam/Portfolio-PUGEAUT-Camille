@@ -1,9 +1,11 @@
-// header {
-//     position: fixed;
-//     top: 0px;
-//     width: 100%;
-//     max-width: 1500px;
-// }
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    max-width: 1500px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
 
 .nav-bar {
     justify-content: space-around;
@@ -14,7 +16,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0px;
-    color: $text-primary;
+    color: $text-header;
     padding-left: 0px;
 }
 

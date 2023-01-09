@@ -5,7 +5,7 @@ body {
     width: 100%;
     background-color: $background-color;
     box-sizing: border-box;
-    color: white;
+    color: $text-beige;
 }
 
 .container-body {
@@ -24,8 +24,19 @@ h1 {
     flex-wrap: wrap;
 }
 .around {
+    display: flex;
     justify-content: space-around;
 }
-.center {
+.j-c-center {
+    display: flex;
     justify-content: center;
+}
+.a-i-center {
+    display: flex;
+    align-items: center;
+}
+.j-c-se-a-i-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

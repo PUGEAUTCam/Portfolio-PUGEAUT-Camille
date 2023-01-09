@@ -1,19 +1,55 @@
 .first-page {
     height: 100vh;
 }
-
-.name-svg-container {
-    height: 70vh;
+//Container Height
+.name-container {
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.svg-container {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lines-span {
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .lottie-container {
-    height: 24vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+//Line effet
+.line-color {
+    border-bottom: 1px solid #a1a1a1d4;
+}
+.width1 {
+    width: 65%;
+}
+.width2 {
+    width: 75%;
+}
+
+//Alternance box
+.title-alternance {
+    text-align: center;
+}
+
+.day-alter {
+    font-size: 80px;
 }
 
 // SVG
 svg {
-    width: 743px;
+    width: 482px;
 }
 
 .svg-developer path {
