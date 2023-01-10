@@ -9,10 +9,23 @@ a {
 }
 h1 {
     font-family: "Poiret one", sans-serif;
-    font-size: 125px;
+    font-size: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 h4 {
     font-family: "Poiret one", sans-serif;
-    font-size: 80px;
+    font-size: 75px;
     margin: 0;
+    border-top: 1px solid #d7c28e8f;
+    border-bottom: 1px solid #d7c28e8f;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-bottom: 3px;
+}
+.date-padding {
+    padding-right: 29px;
+    padding-left: 66px;
+    padding-bottom: 3px;
+    font-size: 73px;
 }

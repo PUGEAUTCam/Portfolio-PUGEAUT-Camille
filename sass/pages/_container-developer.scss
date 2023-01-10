@@ -3,13 +3,13 @@
 }
 //Container Height
 .name-container {
-    height: 30vh;
+    height: 28vh;
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .svg-container {
-    height: 30vh;
+    height: 28vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -21,8 +21,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.alternance-container {
+    height: 26vh;
+}
 .lottie-container {
-    height: 10vh;
+    height: 14vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,24 +35,33 @@
     border-bottom: 1px solid #a1a1a1d4;
 }
 .width1 {
-    width: 65%;
+    width: 49%;
 }
 .width2 {
-    width: 75%;
+    width: 55%;
 }
-
 //Alternance box
 .title-alternance {
     text-align: center;
+    font-family: "Poiret One";
+    font-size: 30px;
+    margin: 0;
+    color: #cdb280;
 }
-
 .day-alter {
     font-size: 80px;
+    border: 1px solid $text-header;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
 }
 
 // SVG
 svg {
-    width: 482px;
+    width: 490px;
 }
 
 .svg-developer path {

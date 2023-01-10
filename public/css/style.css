@@ -15,7 +15,7 @@ body {
 
 h1 {
   margin: 0;
-  color: #d7c28e;
+  color: #b39f6f;
 }
 
 .flex {
@@ -44,6 +44,12 @@ h1 {
   align-items: center;
 }
 
+.center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: "lato", sans-serif;
 }
@@ -55,13 +61,27 @@ a {
 
 h1 {
   font-family: "Poiret one", sans-serif;
-  font-size: 125px;
+  font-size: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 h4 {
   font-family: "Poiret one", sans-serif;
-  font-size: 80px;
+  font-size: 75px;
   margin: 0;
+  border-top: 1px solid rgba(215, 194, 142, 0.5607843137);
+  border-bottom: 1px solid rgba(215, 194, 142, 0.5607843137);
+  padding-right: 65px;
+  padding-left: 65px;
+  padding-bottom: 3px;
+}
+
+.date-padding {
+  padding-right: 29px;
+  padding-left: 66px;
+  padding-bottom: 3px;
+  font-size: 73px;
 }
 
 header {
@@ -123,14 +143,14 @@ header {
 }
 
 .name-container {
-  height: 30vh;
+  height: 28vh;
   display: flex;
   align-items: flex-end;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .svg-container {
-  height: 30vh;
+  height: 28vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -144,8 +164,12 @@ header {
   align-items: center;
 }
 
+.alternance-container {
+  height: 26vh;
+}
+
 .lottie-container {
-  height: 10vh;
+  height: 14vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,29 +180,40 @@ header {
 }
 
 .width1 {
-  width: 65%;
+  width: 49%;
 }
 
 .width2 {
-  width: 75%;
+  width: 55%;
 }
 
 .title-alternance {
   text-align: center;
+  font-family: "Poiret One";
+  font-size: 30px;
+  margin: 0;
+  color: #cdb280;
 }
 
 .day-alter {
   font-size: 80px;
+  border: 1px solid #d7c28e;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
 }
 
 svg {
-  width: 482px;
+  width: 490px;
 }
 
 .svg-developer path {
   fill: transparent;
   stroke-width: 1;
-  stroke: rgba(230, 188, 142, 0.3);
+  stroke: rgba(244, 242, 240, 0.31);
   stroke-dasharray: 465;
   stroke-dashoffset: 465;
   animation: animate-developer 3s linear forwards;
@@ -187,7 +222,7 @@ svg {
 .svg-front path {
   fill: transparent;
   stroke-width: 1;
-  stroke: rgba(230, 188, 142, 0.3);
+  stroke: rgba(244, 242, 240, 0.31);
   stroke-dasharray: 677;
   stroke-dashoffset: 677;
   animation: animate-front 3s linear forwards;
