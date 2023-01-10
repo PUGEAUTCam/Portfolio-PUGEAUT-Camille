@@ -22,7 +22,7 @@
     height: 26vh;
 }
 .lottie-container {
-    height: 14vh;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,16 +58,13 @@
 
 // SVG
 svg {
-    width: 490px;
+    width: 500px;
 }
-
 .svg-developer path {
     fill: transparent;
     stroke-width: 1;
     stroke: $stroke;
-    // définit le motif des traits et des espaces utilisés pour dessiner le contour de la forme.
     stroke-dasharray: 465;
-    // décale la position de départ des pointillés sur les lignes SVG.
     stroke-dashoffset: 465;
     animation: animate-developer 3s linear forwards;
 }

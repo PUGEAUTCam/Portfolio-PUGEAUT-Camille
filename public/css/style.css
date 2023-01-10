@@ -84,6 +84,15 @@ h4 {
   font-size: 73px;
 }
 
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 1500px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 .nav-bar {
   justify-content: space-around;
   align-items: center;
@@ -156,7 +165,7 @@ h4 {
 }
 
 .lottie-container {
-  height: 14vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -194,13 +203,13 @@ h4 {
 }
 
 svg {
-  width: 490px;
+  width: 500px;
 }
 
 .svg-developer path {
   fill: transparent;
   stroke-width: 1;
-  stroke: rgba(244, 242, 240, 0.31);
+  stroke: rgba(244, 242, 240, 0.55);
   stroke-dasharray: 465;
   stroke-dashoffset: 465;
   animation: animate-developer 3s linear forwards;
@@ -209,7 +218,7 @@ svg {
 .svg-front path {
   fill: transparent;
   stroke-width: 1;
-  stroke: rgba(244, 242, 240, 0.31);
+  stroke: rgba(244, 242, 240, 0.55);
   stroke-dasharray: 677;
   stroke-dashoffset: 677;
   animation: animate-front 3s linear forwards;
