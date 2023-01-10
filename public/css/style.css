@@ -84,15 +84,6 @@ h4 {
   font-size: 73px;
 }
 
-header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  max-width: 1500px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
 .nav-bar {
   justify-content: space-around;
   align-items: center;
@@ -136,10 +127,6 @@ header {
 }
 .underline:hover::after {
   width: 100%;
-}
-
-.first-page {
-  height: 100vh;
 }
 
 .name-container {
@@ -243,6 +230,69 @@ svg {
   100% {
     stroke-dashoffset: 0;
   }
+}
+.cover {
+  background-color: #0c0c0c;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover-heading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cover-heading h2 {
+  color: #d7c28e;
+  font-size: 60px;
+  display: inline-block;
+  font-family: "Poiret One", cursive;
+  font-weight: 100;
+}
+
+.cover-heading span {
+  color: #d7c28e;
+  font-size: 60px;
+  display: inline-block;
+  font-weight: 100;
+}
+
+.cover-2 {
+  background-color: #16313a;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover-3 {
+  background-color: #000000;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover-4 {
+  background-color: #d7c28e;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.portfolio-intro {
+  font-family: "Poiret One", cursive;
+  letter-spacing: -4px;
+  line-height: 1;
+  color: #2d2d2d;
+  font-size: 72px;
+  z-index: -1;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */

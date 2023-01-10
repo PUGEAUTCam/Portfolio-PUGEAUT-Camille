@@ -1,0 +1,57 @@
+.cover {
+    background-color: $background-color;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.cover-heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cover-heading h2 {
+    color: $text-header;
+    font-size: 60px;
+    display: inline-block;
+    font-family: "Poiret One", cursive;
+    font-weight: 100;
+}
+.cover-heading span {
+    color: $text-header;
+    font-size: 60px;
+    display: inline-block;
+    font-weight: 100;
+}
+.cover-2 {
+    background-color: #16313a;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.cover-3 {
+    background-color: #000000;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.cover-4 {
+    background-color: $text-header;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+///
+.portfolio-intro {
+    font-family: "Poiret One", cursive;
+    letter-spacing: -4px;
+    line-height: 1;
+    color: #2d2d2d;
+    font-size: 72px;
+    z-index: -1;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
